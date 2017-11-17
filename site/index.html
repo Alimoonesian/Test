@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<style type="text/css">
+			
+			#im
+			{
+				animation-name:mymove;
+				animation-duration:5s;
+				position:relative;	
+				animation-iteration-count: infinite;				
+			}
+			@keyframes mymove
+			{
+				    0%   {left:0px; top:0px;}
+					25%  {left:1100px; top:0px;}
+					50%  {left:600px; top:400px;}
+					75%  {transform:rotate(360deg);left:0px; top:5px;}
+					100% {left:0px; top:0px;}
+			}
+		</style>
+	</head>
+	<body>
+		<img id="im" src="pic.png" title="pic" alt=""/>
+        <p> this is test</p>
+	</body>
+</html>
